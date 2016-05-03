@@ -19,7 +19,7 @@ package kr.blogspot.crowjdh.midisupport.event;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import com.leff.midi.util.VariableLengthInt;
+import kr.blogspot.crowjdh.midisupport.util.VariableLengthInt;
 
 /**
  * Full Disclosure, SysEx events may not be properly handled by this library.

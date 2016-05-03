@@ -20,8 +20,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import com.leff.midi.event.MidiEvent;
-import com.leff.midi.util.VariableLengthInt;
+import kr.blogspot.crowjdh.midisupport.event.MidiEvent;
+import kr.blogspot.crowjdh.midisupport.util.VariableLengthInt;
 
 public abstract class MetaEvent extends MidiEvent
 {

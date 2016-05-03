@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.leff.midi.MidiFile;
-import com.leff.midi.MidiTrack;
-import com.leff.midi.event.MidiEvent;
-import com.leff.midi.event.NoteOff;
-import com.leff.midi.event.NoteOn;
-import com.leff.midi.event.meta.Tempo;
+import kr.blogspot.crowjdh.midisupport.MidiFile;
+import kr.blogspot.crowjdh.midisupport.MidiTrack;
+import kr.blogspot.crowjdh.midisupport.event.MidiEvent;
+import kr.blogspot.crowjdh.midisupport.event.NoteOff;
+import kr.blogspot.crowjdh.midisupport.event.NoteOn;
+import kr.blogspot.crowjdh.midisupport.event.meta.Tempo;
 
 public class MidiManipulation
 {

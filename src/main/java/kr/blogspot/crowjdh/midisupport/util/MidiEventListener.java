@@ -16,7 +16,7 @@
 
 package kr.blogspot.crowjdh.midisupport.util;
 
-import com.leff.midi.event.MidiEvent;
+import kr.blogspot.crowjdh.midisupport.event.MidiEvent;
 
 public interface MidiEventListener
 {

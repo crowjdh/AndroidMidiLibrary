@@ -3,12 +3,12 @@ package kr.blogspot.crowjdh.midisupport.examples;
 import java.io.File;
 import java.io.IOException;
 
-import com.leff.midi.MidiFile;
-import com.leff.midi.event.MidiEvent;
-import com.leff.midi.event.NoteOn;
-import com.leff.midi.event.meta.Tempo;
-import com.leff.midi.util.MidiEventListener;
-import com.leff.midi.util.MidiProcessor;
+import kr.blogspot.crowjdh.midisupport.MidiFile;
+import kr.blogspot.crowjdh.midisupport.event.MidiEvent;
+import kr.blogspot.crowjdh.midisupport.event.NoteOn;
+import kr.blogspot.crowjdh.midisupport.event.meta.Tempo;
+import kr.blogspot.crowjdh.midisupport.util.MidiEventListener;
+import kr.blogspot.crowjdh.midisupport.util.MidiProcessor;
 
 public class EventPrinter implements MidiEventListener
 {

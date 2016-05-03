@@ -19,9 +19,9 @@ package kr.blogspot.crowjdh.midisupport.event.meta;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import com.leff.midi.event.MidiEvent;
-import com.leff.midi.util.MidiUtil;
-import com.leff.midi.util.VariableLengthInt;
+import kr.blogspot.crowjdh.midisupport.event.MidiEvent;
+import kr.blogspot.crowjdh.midisupport.util.MidiUtil;
+import kr.blogspot.crowjdh.midisupport.util.VariableLengthInt;
 
 public class Tempo extends MetaEvent
 {

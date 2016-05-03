@@ -1,7 +1,7 @@
 package kr.blogspot.crowjdh.midisupport.util;
 
-import com.leff.midi.event.MidiEvent;
-import com.leff.midi.event.meta.TimeSignature;
+import kr.blogspot.crowjdh.midisupport.event.MidiEvent;
+import kr.blogspot.crowjdh.midisupport.event.meta.TimeSignature;
 
 /**
  * An event specifically for MidiProcessor to broadcast metronome ticks so that
